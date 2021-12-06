@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TopicalActivity">
+
+    <TextView
+        android:id="@+id/warning_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Topical Cyclone Warning"
+        android:textColor="#fff"
+        android:background="@color/orange"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:background="@color/yellow"
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Signal 1"
+                    android:padding="10dp"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:background="#2196F3"
+                    android:layout_marginTop="15dp"
+                    android:shadowRadius="5"
+                    android:shadowColor="#000"
+                    android:shadowDx="5"
+                    android:shadowDy="5"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Damage to Structure:"
+                    android:padding="10dp"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="30dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="● Very light or no damage to high risk structures\n\n● Light to medium and low risk structures\n\n● Slight damage to some houses of very light materials or makeshift structures in exposed communities"
+                    android:padding="10dp"
+                    android:layout_marginLeft="35dp"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Damage to Vegetation:"
+                    android:padding="10dp"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="30dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="● Some banana plants are tilted, a few downed and leaves are generally damaged.\n\n● Twigs of small trees may be broken.\n\n● Rice crops, however, may suffer significant damage when it is in its flowering stage."
+                    android:padding="10dp"
+                    android:layout_marginLeft="35dp"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Signal 2"
+                    android:padding="10dp"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:background="#9C27B0"
+                    android:layout_marginTop="15dp"
+                    android:shadowRadius="5"
+                    android:shadowColor="#000"
+                    android:shadowDx="5"
+                    android:shadowDy="5"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Damage to Structure:"
+                    android:padding="10dp"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="30dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="● Light to Moderate damage to high risk structures\n\n● Very light to Light damage to medium-risk structures\n\n● No damage to Very Light damage to low risk structures\n\n● Unshielded, old dilapidated schoolhouses, makeshift shanties, and other structures of light materials are partially damaged or unroofed.\n\n
+ Some old galvanized iron (G.I.) roofs may be peeled or blown off\n\n● Some wooden, old electric posts are tilted or downed.\n\n● Some damage to poorly constructed signs/billboards."
+                    android:padding="10dp"
+                    android:layout_marginLeft="35dp"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Damage to Vegetation:"
+                    android:padding="10dp"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="30dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="● Most banana plants, a few mango trees, ipil-ipiland similar trees are downed or broken.\n\n● Some coconut trees may be tilted with few others broken.\n\n● Rice and corn may be adversely affected.\n\n● Considerable damage to shrubbery and trees with some heavy-foliaged trees blown down.
+"
+                    android:padding="10dp"
+                    android:layout_marginLeft="35dp"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Signal 3"
+                    android:padding="10dp"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:background="#FF5722"
+                    android:layout_marginTop="15dp"
+                    android:shadowRadius="5"
+                    android:shadowColor="#000"
+                    android:shadowDx="5"
+                    android:shadowDy="5"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Damage to Structure:"
+                    android:padding="10dp"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="30dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="● Heavy damage to high-risk structures\n\n● Moderate damage to medium-risk structures\n\n● Light damage to low-risk structures\n\n● Increasing damage to old, dilapidated residential structures and houses of light materials (up to 50% in a community)\n\n● Houses of medium strength materials (old, timber or mixed timber-CHB structures, usually with G.I. roofings), some warehouses or bodega-type structures are unroofed"
+                    android:padding="10dp"
+                    android:layout_marginLeft="35dp"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Damage to Vegetation:"
+                    android:padding="10dp"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="30dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="● Almost all banana plants are downed, some big trees (acacia, mango, etc.) are broken or uprooted.\n\n● Dwarf-type or hybrid coconut trees are tilted or downed.\n\n● Considerable damage to shrubbery and trees with heavy foliage blown off; some large trees blown down."
+                    android:padding="10dp"
+                    android:layout_marginLeft="35dp"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Signal 4"
+                    android:padding="10dp"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:background="#E91E63"
+                    android:layout_marginTop="15dp"
+                    android:shadowRadius="5"
+                    android:shadowColor="#000"
+                    android:shadowDx="5"
+                    android:shadowDy="5"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Damage to Structure:"
+                    android:padding="10dp"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="30dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" ● Very heavy damage to high-risk structures\n\n● Heavy damage to medium risk structures\n\n● Moderate damage to low-risk structures\n\n● Considerable damage to structures of light materials (up to 75% are totally and partially destroyed); complete roof structure failures\n\n● Many houses of medium-built materials are unroofed, some with collapsed walls; extensive damage to doors and windows.\n\n● A few houses of first-class materials are partially damaged.\n\n● All signs/billboards are blown down."
+                    android:padding="10dp"
+                    android:layout_marginLeft="35dp"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Damage to Vegetation:"
+                    android:padding="10dp"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="30dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" ● There is almost total damage to banana plantation.\n\n● Most mango trees, ipil-ipiland similar types of large trees are downed or broken.\n\n● Coconut plantation may suffer extensive damage.\n\n● Rice and corn plantation may suffer severe losses."
+                    android:padding="10dp"
+                    android:layout_marginLeft="35dp"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Signal 5"
+                    android:padding="10dp"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:background="#F31100"
+                    android:layout_marginTop="15dp"
+                    android:shadowRadius="5"
+                    android:shadowColor="#000"
+                    android:shadowDx="5"
+                    android:shadowDy="5"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Damage to Structure:"
+                    android:padding="10dp"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="30dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="● Widespread damage to high-risk structures\n\n● Very heavy damage to medium-risk structures\n\n● Heavy damage to low-risk structures\n\n● Almost total damage to structures of light in highly exposed coastal areas.\n\n● Complete roof failure on many residences and industrial buildings. Severe and extensive window and door damage.\n\n● Most residential and institutional buildings of mixed construction may be severely damaged.\n\n● Electrical power distribution and communication services severely disrupted.\n\n● All signs/billboards blown."
+                    android:padding="10dp"
+                    android:layout_marginLeft="35dp"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Damage to Vegetation:"
+                    android:padding="10dp"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="30dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="● Total damage to banana plantation.\n\n● Most tall trees are broken, uprooted or defoliated.\n\n● Coconut trees are stooped, broken or uprooted.\n\n● Few plants and trees survived"
+                    android:padding="10dp"
+                    android:layout_marginLeft="35dp"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/orange"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Back"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:background="@drawable/round_yello"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

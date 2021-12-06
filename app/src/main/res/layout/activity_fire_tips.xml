@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FireTipsActivity">
+
+    <TextView
+        android:id="@+id/warning_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FIRE SAFETY TIPS"
+        android:textColor="#fff"
+        android:background="@color/orange"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:background="@color/yellow"
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="BEFORE A FIRE"
+                    android:padding="10dp"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:background="#9F0B00"
+                    android:layout_marginTop="15dp"
+                    android:shadowRadius="5"
+                    android:shadowColor="#000"
+                    android:shadowDx="5"
+                    android:shadowDy="5"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp"
+                    android:weightSum="2"
+                    >
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:layout_width="0dp"
+                        android:layout_height="150dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/fire_gif_2"
+                        android:padding="5dp"
+                        />
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:layout_width="0dp"
+                        android:layout_height="150dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/fire_gif_1"
+                        android:padding="5dp"
+                        />
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The safest thing to do before a fire is to prevent it from happening in the first place.\n\nThe American Red Cross provides some tips to prepare for a home fire.\n\n1. Install the right number of smoke alarms. Test them once a month and replace the batteries at least once a year.\n\n2. Teach children what smoke alarms sound like and what to do when they hear one.\n\n3. Ensure that all household members know two ways to escape from every room of your home and know the family meeting spot outside of your home.\n\n4. Establish a family emergency communications plan and ensure that all household members know who to contact if they cannot find one another.\n\n5. Practice escaping from your home at least twice a year. Press the smoke alarm test button or yell “Fire“ to alert everyone that they must get out.\n\n6. Make sure everyone knows the emergency hotlines.\n\n7. Teach household members to STOP, DROP, and ROLL if their clothes should catch on fire."
+                    android:padding="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="DURING A FIRE"
+                    android:padding="10dp"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:background="#9F0B00"
+                    android:layout_marginTop="15dp"
+                    android:shadowRadius="5"
+                    android:shadowColor="#000"
+                    android:shadowDx="5"
+                    android:shadowDy="5"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp"
+                    android:weightSum="1"
+                    >
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:layout_width="0dp"
+                        android:layout_height="150dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/fire_gif_3"
+                        android:padding="5dp"
+                        />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The American Red Cross provides the following tips:\n\n1. Know how to safely operate a fire extinguisher.\n\n2. Remember to GET OUT, STAY OUT, and CALL your local emergency phone number.\n\n3. Yell Fire! several times and go outside right away. If you live in a building with elevators, use the stairs.\n\n4. Leave all your things where they are and save yourself.\n\n5. If closed doors or handles are warm or smoke blocks your primary escape route, use your second way out. Never open doors that are warm to the touch.\n\n6. If you must escape through smoke, get low and go under the smoke to your exit. Close doors behind you.\n\n7. If smoke, heat, or flames block your exit routes, stay in the room with doors closed. Place a wet towel under the door and call the fire department. Open a window and wave a brightly colored cloth or flashlight to signal for help.\n\n8. Once you are outside, go to your meeting place and then send one person to call the fire department. If you cannot get to your meeting place, follow your family emergency communication plan."
+                    android:padding="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="AFTER A FIRE"
+                    android:padding="10dp"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:background="#9F0B00"
+                    android:layout_marginTop="15dp"
+                    android:shadowRadius="5"
+                    android:shadowColor="#000"
+                    android:shadowDx="5"
+                    android:shadowDy="5"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp"
+                    android:weightSum="1"
+                    >
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:layout_width="0dp"
+                        android:layout_height="150dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/fire_gif_4"
+                        android:padding="5dp"
+                        />
+
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Ask or give First Aid where needed; cool and cover burns to reduce the chance of further injury or infection.\n\n2. Let friends and family know you’re safe.\n\n3. People and animals that are seriously injured or burned should be transported to professional medical or veterinary help immediately.\n\n4. Stay out of fire-damaged homes until local fire authorities say it is safe to re-enter. (RSR)"
+                    android:padding="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/orange"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Back"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:background="@drawable/round_yello"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

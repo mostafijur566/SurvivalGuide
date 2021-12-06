@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FloodTipsActivity">
+
+    <TextView
+        android:id="@+id/warning_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FLOOD SAFETY TIPS"
+        android:textColor="#fff"
+        android:background="@color/orange"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:background="@color/yellow"
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Before Flood"
+                    android:padding="10dp"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:background="#9F0B00"
+                    android:layout_marginTop="15dp"
+                    android:shadowRadius="5"
+                    android:shadowColor="#000"
+                    android:shadowDx="5"
+                    android:shadowDy="5"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp"
+                    android:weightSum="3"
+                    >
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:layout_width="0dp"
+                        android:layout_height="150dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/flood_gif_1"
+                        android:padding="5dp"
+                        />
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:layout_width="0dp"
+                        android:layout_height="150dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/flood_gif_2"
+                        android:padding="5dp"
+                        />
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:layout_width="0dp"
+                        android:layout_height="150dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/flood_gif_3"
+                        android:padding="5dp"
+                        />
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="● Find out how often your location is likely to be flooded.\n\n● Know the flood warning system in your community and be sure your family knows it.\n\n● Keep informed of daily weather condition.\n\n● Designate an evacuation area for the family and livestock.\n\n●  Assign family members instructions and responsibilities according to an evacuation plan.\n\n● Keep a stock of food which requires little cooking and refrigeration; electric power may be interrupted.\n\n● Keep a transistorized radio and flashlight with spare batteries, emergency cooking equipment, candies, matches and first aid kit handy in case of emergency.\n\n● Store supplies and other household effects above expected flood water level.\n\n● Securely anchor weak dwellings and items."
+                    android:padding="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="WHEN WARNED OF FLOOD"
+                    android:padding="10dp"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:background="#9F0B00"
+                    android:layout_marginTop="15dp"
+                    android:shadowRadius="5"
+                    android:shadowColor="#000"
+                    android:shadowDx="5"
+                    android:shadowDy="5"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp"
+                    android:weightSum="3"
+                    >
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:layout_width="0dp"
+                        android:layout_height="150dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/flood_gif_2"
+                        android:padding="5dp"
+                        />
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:layout_width="0dp"
+                        android:layout_height="150dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/flood_gif_4"
+                        android:padding="5dp"
+                        />
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:layout_width="0dp"
+                        android:layout_height="150dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/flood_gif_5"
+                        android:padding="5dp"
+                        />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="● Watch for rapidly rising flood waters.\n\n● Listen to your radio for emergency instructions.\n\n
+  If you find it necessary to evacuate, move to a safe area before access is cut off by flood waters.\n\n● Store drinking water in containers, water service may be interrupted.\n\n● Move household belongings to upper levels.\n\n● Get livestock to higher ground.\n\n● Turn off electricity at the main switch in the building before evacuating and also lock your house."
+                    android:padding="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="DURING FLOOD"
+                    android:padding="10dp"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:background="#9F0B00"
+                    android:layout_marginTop="15dp"
+                    android:shadowRadius="5"
+                    android:shadowColor="#000"
+                    android:shadowDx="5"
+                    android:shadowDy="5"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp"
+
+                    >
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/flood_gif_6"
+                        android:padding="5dp"
+                        />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="● Avoid areas subject to sudden flooding.\n\n● Do not attempt to cross rivers of flowing streams where water is above the knee.\n\n● Beware of water-covered roads and bridges.\n\n● Avoid unnecessary exposure to the elements.\n\n● Do not go swimming or boating in swollen rivers.\n\n● Eat only well-cooked food. Protect leftovers against contamination.\n\n● Drink clean or preferably boiled water ONLY."
+                    android:padding="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="AFTER  FLOOD"
+                    android:padding="10dp"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:background="#9F0B00"
+                    android:layout_marginTop="15dp"
+                    android:shadowRadius="5"
+                    android:shadowColor="#000"
+                    android:shadowDx="5"
+                    android:shadowDy="5"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp"
+
+                    >
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/flood_gif_7"
+                        android:padding="5dp"
+                        />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="● Re-enter the dwellings with caution using flashlights, not lanterns or torchers. Flammables may be inside.\n\n● Be alert for fire hazards like broken wires.\n\n● Do not eat food and drink water until they have been checked for flood water contamination.\n\n● Report broken utility lines (electricity, water, gas and telephone) to appropriate agencies authorities.\n\n● Do not turn on the main switch or use appliances and other equipment until they have been checked by a competent electrician.\n\n● Consult health authorities for immunization requirements.\n\n● Do not go in disaster areas. Your presence might hamper rescue and other emergency operations."
+                    android:padding="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/orange"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Back"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:background="@drawable/round_yello"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

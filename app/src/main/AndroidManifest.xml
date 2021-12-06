@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.survivalguide">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SurvivalGuide">
+        <activity
+            android:name=".EarthquakeTipsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EarthquakePreparationsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EarthquakeIntensityActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FireTipsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FireClassificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AlarmLevelsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FloodTipsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TopicalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WarningActivity"
+            android:exported="false" />
+        <activity
+            android:name=".aboutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EarthquakeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FireActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FloodActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LearnActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

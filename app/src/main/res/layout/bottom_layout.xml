@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottom_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/round_bottom_sheet"
+    >
+
+    <LinearLayout
+        android:id="@+id/btn_down"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/btn_up"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/round_yello"
+            android:src="@drawable/ic_baseline_arrow_downward_24"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HOTLINE NUMBERS"
+        android:textAlignment="center"
+        android:fontFamily="@font/aquire"
+        android:layout_margin="20dp"
+        android:textSize="25dp"
+        android:padding="20dp"
+        android:background="@drawable/round_yello"
+        android:textColor="#fff"
+        />
+
+    <Button
+        android:id="@+id/btn_national"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="National Emergency"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:background="@drawable/round_yello"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:id="@+id/btn_phivolcs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PHIVOLCS"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:background="@drawable/round_yello"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:id="@+id/btn_pagasa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PAGASA"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:background="@drawable/round_yello"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:id="@+id/btn_fire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bureau of Fire Protections"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:background="@drawable/round_yello"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="80dp"/>
+
+</LinearLayout>

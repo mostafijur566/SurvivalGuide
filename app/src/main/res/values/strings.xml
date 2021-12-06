@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Survival Guide</string>
+
+    <string name="about_flood">Water, one of the most common subslances known to man has become, through the years, a precious commodity. Water is required
+    in practically all facets of human activities. And the need ofr water is enormous. It is roughly proportional to the population!\n\n
+    However, the Philippines is blessed with a large number of rivers, lakes and stream. Thus, the lack of water has never been a real problem.
+    Where an apparent scarcity exists, the difficulty is traceable to the uneven distribution of rainfall necessary to replenish water in revers,
+    lakes and other bodies of water.\n\n
+    From the foregoing technical definition, flood simply denotes a progressive abnormal increase in the elevation of the surface level of streamflow until it
+    reaches a maximum height from which the level slowly drops to what is its normal level. The sequence described all takes place within a certain period of time.</string>
+
+    <string name="about_fire">
+        Fire is one of the most common disasters that could impact you and your family. As more people live closer and closer together, particularly as a result of urbanization, risks associated with fire increase.\n\n
+
+House fires are predominantly accidental,
+usually in relation to the use of indoor lamps, stoves or heaters that use an open flame.
+While localized in effect, house fires ultimately affect hundreds of thousands of homes
+a year world-wide. Fire spreads quickly and can easily engulf a home and neighboring structures within minutes.
+    </string>
+
+    <string name="flood_photo_credit">
+        Floods brought by Tropical Cyclone (Ling Ling) Agaton, Philippines. \nPhoto: @ DDNewsLive
+    </string>
+
+    <string name="fire_photo_credit">
+        Erik de Castro/Reuters
+    </string>
+
+    <string name="about_earthquake">
+        ● Earthquakes have the capacity to cause
+calamitous loss of property and life. These
+sudden shifts in the earths crust happen swiftly
+and without warning. A high magnitude
+earthquake can alter a citys landscape in
+seconds, rendering it unrecognizable.\n\n
+
+● Despite this natural disasters unpredictability,
+communities in earthquake-prone zones can take
+measures to prepare for them. Earthquake
+readiness increases your familys self-sufficiency
+following an emergency. Experts agree - the less
+you rely on emergency responders, the better
+your chances of survival.\n\n
+    </string>
+
+    <string name="earthquake_photo_credit">
+        Rescuers call on persons trapped inside a shopping center that collpased in Padada, Davao del Sur during the 6.9 magnitude quake at 2:11 p.m. on Sunday, 15 December 2019. Photo by SAMANTHA BURGOS of Mindanao Times
+    </string>
+
+</resources>

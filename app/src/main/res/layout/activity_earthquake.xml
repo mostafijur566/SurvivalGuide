@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="6"
+    tools:context=".EarthquakeActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:src="@drawable/earth"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Earthquake"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:padding="20dp"
+        android:background="@color/orange"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#A1731C00"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/yellow"
+        >
+
+        <Button
+            android:id="@+id/btn_about_earthquake"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="About Earthquake"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:padding="20dp"
+            android:background="@drawable/round_text_view"
+            android:layout_marginBottom="10dp"
+            />
+
+        <Button
+            android:id="@+id/btn_intensity"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Intensity Scale"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:padding="20dp"
+            android:background="@drawable/round_text_view"
+            android:layout_marginBottom="10dp"
+            />
+
+        <Button
+            android:id="@+id/btn_earthquake_preparations"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Preparation"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:padding="20dp"
+            android:background="@drawable/round_text_view"
+            android:layout_marginBottom="10dp"
+            />
+
+        <Button
+            android:id="@+id/btn_earthquake_tips"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Survival Tips"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:padding="20dp"
+            android:background="@drawable/round_text_view"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/orange"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:background="@drawable/round_yello"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FireClassificationActivity">
+
+    <TextView
+        android:id="@+id/warning_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FIRE CLASSIFICATION"
+        android:textColor="#fff"
+        android:background="@color/orange"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:background="@color/yellow"
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="● First-degree (superficial) burns. First-degree burns affect only the outer layer of skin, the epidermis. The burn site is red, painful, dry, and with no blisters. Mild sunburn is an example. Long-term tissue damage is rare and often consists of an increase or decrease in the skin color.\n\n● Second-degree (partial thickness) burns. Second-degree burns involve the epidermis and part of the lower layer of skin, the dermis. The burn site looks red, blistered, and may be swollen and painful.\n\n● Third-degree (full thickness) burns. Third-degree burns destroy the epidermis and dermis. They may go into the innermost layer of skin, the subcutaneous tissue. The burn site may look white or blackened and charred.\n\n● Fourth-degree burns. Fourth-degree burns go through both layers of the skin and underlying tissue as well as deeper tissue, possibly involving muscle and bone. There is no feeling in the area since the nerve endings are destroyed."
+                    android:padding="5dp"
+                    android:layout_marginLeft="35dp"
+                    android:textColor="#000"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/orange"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Back"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:background="@drawable/round_yello"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
